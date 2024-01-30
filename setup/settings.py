@@ -11,7 +11,8 @@ https://docs.djangoproject.com/en/5.0/ref/settings/
 """
 
 from pathlib import Path, os
-from dotenv import load_dotenv
+# The python-dotenv package makes it easy to find the .env file and import its information. In this case we are passing the SECRET_KEY
+from dotenv import load_dotenv 
 
 load_dotenv()
 
